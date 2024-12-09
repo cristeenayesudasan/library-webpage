@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-bg-dark p-3">
+        <div class="container-fluid">
+            <img id="logo" class="ms-5" src="images/lib-icon.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white" href="index.html">Home</a>
+                    <a class="nav-link text-white" href="signin.html">Sign In</a>
+                    <a class="nav-link text-white active" href="signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign-Up Form Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Sign Up</h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <form action="#" method="POST">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Create a password" required>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-dark w-100">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer text-center bg-light">
+                            <p>Already have an account? <a href="signin.html" class="text-dark">Sign In</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="signin.html" class="text-white text-decoration-none">Sign In</a></li>
+                        <li><a href="signup.html" class="text-white text-decoration-none">Sign Up</a></li>
+                        <li><a href="books.html" class="text-white text-decoration-none">Books</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>
+                        <i class="bi bi-envelope"></i> Email: library@domain.com<br>
+                        <i class="bi bi-telephone"></i> Phone: +123 456 7890<br>
+                        <i class="bi bi-geo-alt"></i> Address: 123 Library Lane, Booktown
+                    </p>
+                </div>
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2024 Your Library. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

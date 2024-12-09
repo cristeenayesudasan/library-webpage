@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url('../images/lib-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    height: 80px;
+    width: auto;
+}
+
+.card a {
+    color: inherit; /* Inherits the color of the parent element */
+    text-decoration: none; /* Removes the underline */
+}
+
+.card a:hover {
+    color: inherit; /* Optional: Ensure no color change on hover */
+    text-decoration: none; /* Prevent underline on hover */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Optional: Add underline for hover effect */
+    
+}
+
